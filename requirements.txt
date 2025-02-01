@@ -1,0 +1,5 @@
+streamlit
+trulens
+snowflake-connector-python
+openai
+PyPDF2 
