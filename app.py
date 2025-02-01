@@ -1,11 +1,11 @@
 import sys
 import os
 import streamlit as st
-from cortex_search import query_cortex_search # import backend modules
-from mistral_integration import generate_answer
 
 # Add the parent directory (project root) to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from mistral_integration import generate_answer
+from cortex_search import query_cortex_search # import backend modules
 
 # Print the current working directory
 print("Current Working Directory:", os.getcwd())
